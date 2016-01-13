@@ -10,6 +10,11 @@ $(document).ready(function(){
 		}
 	);
 	
+	$(function () {
+		$('.collapse-card').paperCollapse()
+	})
+	
+	
 	$(".order").hover(function(){
 		$(this).find("span").css("display","block");
 	}, function(){
