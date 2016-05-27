@@ -1,7 +1,7 @@
 @media screen and (max-width: 900px) {
   /* Specific to this particular image */
   #first_l {
-    width: 100%;
+    display: none;
   }
 
   #first_r {
